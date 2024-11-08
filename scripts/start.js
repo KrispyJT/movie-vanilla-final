@@ -11,3 +11,14 @@ console.log('****IF THE SERVER(s) LISTED HAVE PORT :10000, do not try to visit/o
 
 
 execSync(cmd, { stdio: 'inherit' })
+
+
+
+const apiKey = "api_key_here"; // my key here
+
+
+function fetchPopularMovies() {
+    const url = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`;
+
+    
+}
